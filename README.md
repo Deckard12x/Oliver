@@ -28,19 +28,19 @@
 | Bienvenida automática|✔️|
 | Anti-Link|✔️|
 | Anti-privados|✔️|
-| Anti-Fakes|✔️|
-| Anti-Estranjeros|✔️|
-| Anti-Trabas|✔️|
-| Anti-Spam_CMDS|✔️|
-| Creador de logos|✔️|
+| Anti-Fakes|❌|
+| Anti-Estranjeros|❌|
+| Anti-Trabas|⁉️|
+| Creador de logos|⁉️|
 | Imagenes-Random|✔️|
 | Juegos|✔️|
 | Modo Publico/Privado|✔️|
-| Modo NSFW|✔️|
-| Chat-Bot|✔️|
+| Modo NSFW|⁉️|
+| Chat-Bot|❌|
 | Descarga de música/videos|✔️|
-| Traba-WhatsApp|✔️|
+| Traba-WhatsApp|⁉️|
 | Botones interactivos|✔️|
+| Ser Sub-Bot|⁉️|
 | Nuevo estilo multidispositivo|✔️|
 
 </div>
@@ -90,7 +90,7 @@
 ```
 
 # 🔥Ejecutar el bot 24/7 
-- Es aconsejable que subas el archivo de session.json ya activado, para ya no tener que escanear otro código QR
+- Es aconsejable que subas la carpeta ./sesiones ya activado, para ya no tener que escanear otro código QR
 
 ## Desplegable en Heroku & railway
 - Heroku => https://heroku.com/deploy?template=URL_del_repositorio_actual
@@ -107,5 +107,7 @@
 # ♻️ Agradecimientos especiales :3
 
 * <a href="https://github.com/adiwajshing/Baileys"><img alt="GitHub" src="https://img.shields.io/badge/adiwajshing/Baileys%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
+* <a href="https://github.com/BochilGaming"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+
 </p>
 </div>
