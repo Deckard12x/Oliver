@@ -26,16 +26,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/NeKosmic/Quantum-Bot",
+    "homepage": "",
     "author": {
         "name": "Matt_Mdz"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/NeKosmic/Quantum-Bot.git"
+        "url": ""
     },
     "bugs": {
-        "url": "https://github.com/NeKosmic/Quantum-Bot/issues"
+        "url": ""
     },
     "license": "GNU",
     "dependencies": {
