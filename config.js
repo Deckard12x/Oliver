@@ -23,7 +23,7 @@ global.BotVersion = version
 global.TusRedesSociales = "Canal de Youtube\nhttps://youtube.com/channel/UC_Pp8pT9vbT15k5_-i6oseA\nPágina de Facebook\nhttps://fb.watch/b7pj-i5ejP/\nTiktok\nhttps://vm.tiktok.com/ZMLjAbySN/\n\nMuchisimas gracias por tu apoyo mi king :3"
 
 global.owner = [
-  ['51995386439', 'BG', true]
+  ['51995386439', name, true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 
