@@ -202,6 +202,7 @@ break
         throw false
       }
       global.opts['gconly'] = isEnable
+      global.noPriv = opts['gconly'] ? '| No chat privados' : ''
       break
     case 'delete':
       if (m.isGroup) {
