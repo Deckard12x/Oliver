@@ -12,7 +12,7 @@ const { name, version } = require(join(__dirname, './package.json'))
 
 global.Propietario = 'Matt_Mdz'
 
-global.Prefijo = '/'
+global.Prefijo = '.'
 
 global.MyApiKey = 'nekosmic'
 
