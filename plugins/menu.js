@@ -133,7 +133,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, command }) => {
     ], m)
     let settingstatus = 0;
     if (new Date() * 1 - settingstatus > 1000) {
-    	await conn.query({tag: 'iq', attrs: { to: '@s.whatsapp.net', type: 'set', xmlns: 'status', }, content: [{ tag: 'status', attrs: {}, content: Buffer.from(`<[ Quantum|Bot ]>\nTiempo activo : `+uptime, 'utf-8')}]}).catch((_) => _);
+    	await conn.query({tag: 'iq', attrs: { to: '@s.whatsapp.net', type: 'set', xmlns: 'status', }, content: [{ tag: 'status', attrs: {}, content: Buffer.from(`<[ Quantum|Bot ]>\nTiempo activo : `+uptime+global.noPriv, 'utf-8')}]}).catch((_) => _);
     settingstatus = new Date() * 1;
     }
   } catch (e) {
