@@ -25,9 +25,9 @@ await conn.sendMessage(m.chat, { text : `${masss}\n${htextos}\n`, mentions: user
 }
 }
 
-handler.help = ['.', 'totag', 'hidetag'].map(v => v + ' [mensaje]')
+handler.help = ['hidetag'].map(v => v + ' [mensaje]')
 handler.tags = ['grupos', 'admins']
-handler.command = /^(.|totag|hidetag)$/i
+handler.command = /^(totag|hidetag)$/i
 
 handler.group = true
 handler.admin = true
