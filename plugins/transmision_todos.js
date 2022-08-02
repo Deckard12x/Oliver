@@ -50,6 +50,7 @@ m.reply(`Finalizando la transmision del mensaje :D`)
 //⚡//
 } else {
 for (let cid of tmap){
+        await delay(5000)
 conn.sendMessage(cid, { text: `${text ? text : '\n[ TRANSMISIÓN ]\n'}`, contextInfo:{ forwardingScore: 200, isForwarded: true} } )
 }
 m.reply(`Finalizando la transmision del mensaje :D`)
