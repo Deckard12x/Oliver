@@ -29,12 +29,12 @@ global.menu_hit = []
 let handler = async (m, { conn, usedPrefix: _p, __dirname, command }) => {
 	try {
     let wimg = await fetch('https://pastebin.com/raw/GZ8d1qcT')
-    let imgw = await conn.profilePictureUrl(m.sender, 'image').catch(_ => './src/avatar_contact.png')
+    let imgw = await conn.profilePictureUrl(m.sender, 'image').catch(_ => './multimedia/imagenes/avatar_contact.png')
     var wjson = await wimg.json()
     var pweb = wjson.nk_media || imgw
     var textweb = wjson.nk_txt
     } catch (e) {
-    var pweb = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
+    var pweb = await conn.profilePictureUrl(conn.user.jid).catch(_ => './multimedia/imagenes/avatar_contact.png')
     var textweb = ''
     }
     m.reply(`_Cargando menu..._ ${textweb}`)
